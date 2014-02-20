@@ -1,10 +1,40 @@
 doctype html 
 html 
-  head 
-    meta charset="utf-8"
-    title Sedad
-    link rel="stylesheet" media="screen, projection" href="css/styles.css"
-    /[if lt IE 9] 
-      script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
-  body 
-    == yield
+  meta charset="utf-8"
+  meta name="viewport" content="width=device-width"
+  title Foundation 4
+
+  link rel="stylesheet" href="stylesheets/normalize.css"
+  link rel="stylesheet" href="stylesheets/app.css"
+  link rel="stylesheet" href="stylesheets/styles.css"
+
+  script src="javascripts/vendor/custom.modernizr.js"
+
+  script type="text/javascript" src="//use.typekit.net/mxf4zfx.js"
+
+  javascript:
+    try{Typekit.load();}catch(e){}
+
+  ==yield
+
+  script src="javascripts/vendor/jquery.js"
+  script src="javascripts/vendor/stellar.js"
+  script src="javascripts/foundation/foundation.js"
+  script src="javascripts/foundation/foundation.alerts.js"
+  script src="javascripts/foundation/foundation.clearing.js"
+  script src="javascripts/foundation/foundation.cookie.js"
+  script src="javascripts/foundation/foundation.dropdown.js"
+  script src="javascripts/foundation/foundation.forms.js">
+  script src="javascripts/foundation/foundation.joyride.js"
+  script src="javascripts/foundation/foundation.magellan.js"
+  script src="javascripts/foundation/foundation.orbit.js"
+  script src="javascripts/foundation/foundation.placeholder.js"
+  script src="javascripts/foundation/foundation.reveal.js"
+  script src="javascripts/foundation/foundation.section.js"
+  script src="javascripts/foundation/foundation.tooltips.js"
+  script src="javascripts/foundation/foundation.topbar.js"
+  
+  
+  javascript:
+    $(document).foundation();
+    $(window).stellar({responsive: true});
