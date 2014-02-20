@@ -27,34 +27,29 @@
 
 .mr_synth {
   background-image: url('../images/mr_synth_dark.png');
-  height: 400px;
 }
 
 .code {
   background-image: url('../images/code.png');
-  height: 400px;
 }
 
 .noise_toaster {
   background: url('../images/noise_toaster.png');
-  height: 400px;
 }
 
 .harrison_roof {
   background: url('../images/harrison_roof.png');
-  height: 400px;
 }
 
 .logic {
   background: url('../images/logic.png');
-  height: 400px;
 }
 
 
 .parallax {
   background-position-x: 0px !important;
   background-size: cover;
-  overflow: hidden;
+  height: 400px;
 }
 
 .amplify_callout {
