@@ -1,6 +1,15 @@
-/*body {
-  background-image: url('../images/subtle_dots.png');
-}*/
+body {
+  margin-top: 65px;
+}
+
+#logo_scroll { 
+  display:none; 
+  position:fixed; 
+}
+
+.contain-to-grid {
+  border: 1px #ddd solid;
+}
 
 .center {
   text-align: center;
