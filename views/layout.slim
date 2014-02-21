@@ -14,28 +14,7 @@ html
 
   javascript:
     try{Typekit.load();}catch(e){}
-
-  .contain-to-grid.fixed
-    .top-bar
-      ul.title-area
-        a#logo_scroll href="/" 
-          img src="images/profile_thumb.png"
-        li.name
-        //Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-        li.toggle-topbar.menu-icon
-          a href="#"
-            span Menu
-
-      .top-bar-section
-        span.header_title
-        ul.right
-          li
-            a href="#" Portfolio
-          li
-            a href="#" Contact
-          li
-            a href="#" About
-
+    
   ==yield
 
   script src="javascripts/vendor/jquery.js"

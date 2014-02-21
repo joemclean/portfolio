@@ -40,27 +40,19 @@ body {
 
 .sketches {
   background-image: url('../images/sketches_dark.png');
-
-  background-color: #000;
-  height: 400px;
 }
-
 .mr_synth {
   background-image: url('../images/mr_synth_dark.png');
 }
-
 .code {
   background-image: url('../images/code.png');
 }
-
 .noise_toaster {
   background: url('../images/noise_toaster.png');
 }
-
 .harrison_roof {
   background: url('../images/harrison_roof.png');
 }
-
 .logic {
   background: url('../images/logic.png');
 }
@@ -69,6 +61,7 @@ body {
 .parallax {
   background-position-x: 0px !important;
   background-size: cover;
+  background-attachment: fixed;
   height: 400px;
 }
 
@@ -84,6 +77,10 @@ body {
 
 .row {
   padding: 20px 0px;
+}
+
+a h3:hover {
+  text-decoration:underline;
 }
 
 
