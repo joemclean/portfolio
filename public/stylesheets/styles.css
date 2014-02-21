@@ -4,7 +4,14 @@ body {
 
 #logo_scroll { 
   display:none; 
-  position:fixed; 
+  position:fixed;
+  padding: 4px;
+}
+
+#header_link {
+  margin-left: 5px;
+  position:fixed;
+  margin-top: 3px;
 }
 
 .contain-to-grid {
@@ -19,6 +26,10 @@ body {
   background-color: #fff;
   line-height: 1.5em;
   color: #999;
+}
+
+.support_image {
+  padding-top: 15px;
 }
 
 .hero {

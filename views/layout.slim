@@ -10,10 +10,31 @@ html
 
   script src="javascripts/vendor/custom.modernizr.js"
 
-  script type="text/javascript" src="//use.typekit.net/mxf4zfx.js"
+  //script type="text/javascript" src="//use.typekit.net/mxf4zfx.js"
 
   javascript:
     try{Typekit.load();}catch(e){}
+
+  .contain-to-grid.fixed
+    .top-bar
+      ul.title-area
+        a#logo_scroll href="/" 
+          img src="images/profile_thumb.png"
+        li.name
+        //Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+        li.toggle-topbar.menu-icon
+          a href="#"
+            span Menu
+
+      .top-bar-section
+        span.header_title
+        ul.right
+          li
+            a href="#" Portfolio
+          li
+            a href="#" Contact
+          li
+            a href="#" About
 
   ==yield
 
@@ -40,5 +61,11 @@ html
     $(window).stellar({responsive: true});
     var $logo = $('#logo_scroll');
     $(document).scroll(function() {
-        $logo.css({display: $(this).scrollTop()>100 ? "block":"none"});
+        //$logo.css({display: $(this).scrollTop()>100 ? "block":"none"});
+        if ($(this).scrollTop() >= 100){
+          $logo.fadeIn("400");
+        } else {
+          $logo.fadeOut("400");
+        }
     });
+
