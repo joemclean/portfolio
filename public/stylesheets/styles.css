@@ -8,12 +8,6 @@ body {
   padding: 4px;
 }
 
-#header_link {
-  margin-left: 5px;
-  position:fixed;
-  margin-top: 3px;
-}
-
 .contain-to-grid {
   border: 1px #ddd solid;
 }
@@ -38,6 +32,13 @@ body {
   color: #ccc;
 }
 
+.parallax {
+  background-position-x: 0px !important;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
 .sketches {
   background-image: url('../images/sketches_dark.png');
 }
@@ -55,14 +56,6 @@ body {
 }
 .logic {
   background: url('../images/logic.png');
-}
-
-
-.parallax {
-  background-position-x: 0px !important;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 400px;
 }
 
 .amplify_callout {
