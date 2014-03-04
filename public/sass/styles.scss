@@ -1,0 +1,89 @@
+body {
+  margin-top: 65px;
+}
+
+#logo_scroll { 
+  position:fixed;
+  padding: 4px;
+}
+
+.contain-to-grid {
+  border: 1px #ddd solid;
+}
+
+.center {
+  text-align: center;
+}
+
+.content_box {
+  background-color: #fff;
+  line-height: 1.5em;
+  color: #999;
+  padding: 20px 0px;
+}
+
+.support_image {
+  padding-top: 15px;
+}
+
+.hero {
+  line-height: 1.5em;
+  font-size: 1.7em;
+  color: #ccc;
+}
+
+.parallax {
+  background-position-x: 0px !important;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
+.sketches {
+  background-image: url('../images/sketches_dark.png');
+}
+.mr_synth {
+  background-image: url('../images/mr_synth_dark.png');
+}
+.code {
+  background-image: url('../images/code.png');
+}
+.noise_toaster {
+  background: url('../images/noise_toaster.png');
+}
+.harrison_roof {
+  background: url('../images/harrison_roof.png');
+}
+.logic {
+  background: url('../images/logic.png');
+}
+
+.amplify_callout {
+  height: 400px;
+}
+
+.avatar {
+  background-image: url('../images/avatar_black.png');
+  height: 400px;
+  background-size: cover;
+}
+
+.row {
+
+}
+
+a h3:hover {
+  text-decoration:underline;
+}
+
+.footer {
+  background-color: #eee;
+  margin-top: 50px;
+  .columns {
+    padding: 30px;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
