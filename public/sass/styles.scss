@@ -49,13 +49,13 @@ body {
   background-image: url('../images/code.png');
 }
 .noise_toaster {
-  background: url('../images/noise_toaster.png');
+  background-image: url('../images/noise_toaster.png');
 }
 .harrison_roof {
-  background: url('../images/harrison_roof.png');
+  background-image: url('../images/harrison_roof.png');
 }
 .logic {
-  background: url('../images/logic.png');
+  background-image: url('../images/logic.png');
 }
 
 .amplify_callout {
@@ -79,9 +79,7 @@ a h3:hover {
 .footer {
   background-color: #eee;
   margin-top: 50px;
-  .columns {
-    padding: 30px;
-  }
+  padding-top: 30px;
 }
 
 ul {

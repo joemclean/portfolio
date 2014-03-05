@@ -15,10 +15,13 @@ get '/playlist_builder' do
   slim :playlist_builder
 end
 
+get '/assignments' do
+  slim :assignments
+end
+
 get '/amplify_case' do
   slim :amplify_case
 end
-
 
 get '/portfolio' do
   slim :portfolio

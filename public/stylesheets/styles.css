@@ -64,17 +64,17 @@ body {
 
 /* line 51, ../sass/styles.scss */
 .noise_toaster {
-  background: url("../images/noise_toaster.png");
+  background-image: url("../images/noise_toaster.png");
 }
 
 /* line 54, ../sass/styles.scss */
 .harrison_roof {
-  background: url("../images/harrison_roof.png");
+  background-image: url("../images/harrison_roof.png");
 }
 
 /* line 57, ../sass/styles.scss */
 .logic {
-  background: url("../images/logic.png");
+  background-image: url("../images/logic.png");
 }
 
 /* line 61, ../sass/styles.scss */
@@ -98,13 +98,10 @@ a h3:hover {
 .footer {
   background-color: #eee;
   margin-top: 50px;
-}
-/* line 82, ../sass/styles.scss */
-.footer .columns {
-  padding: 30px;
+  padding-top: 30px;
 }
 
-/* line 87, ../sass/styles.scss */
+/* line 85, ../sass/styles.scss */
 ul {
   list-style-type: none;
 }
