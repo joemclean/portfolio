@@ -19,6 +19,11 @@ get '/assignments' do
   slim :assignments
 end
 
+get '/discovery' do
+  slim :discovery
+end
+
+
 get '/amplify_case' do
   slim :amplify_case
 end
