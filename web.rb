@@ -19,6 +19,10 @@ get '/assignments' do
   slim :assignments
 end
 
+get '/ipi' do
+  slim :ipi
+end
+
 get '/discovery' do
   slim :discovery
 end
