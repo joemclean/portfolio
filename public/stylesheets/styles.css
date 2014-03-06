@@ -40,63 +40,64 @@ body {
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
+  margin-bottom: 20px;
 }
 
-/* line 38, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .sketches {
   background-image: url("../images/sketches_dark.png");
 }
 
-/* line 41, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .mr_synth {
   background-image: url("../images/mr_synth_dark.png");
 }
 
-/* line 44, ../sass/styles.scss */
+/* line 45, ../sass/styles.scss */
 .code {
   background-image: url("../images/code.png");
 }
 
-/* line 47, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .noise_toaster {
   background-image: url("../images/noise_toaster.png");
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .harrison_roof {
   background-image: url("../images/harrison_roof.png");
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 .logic {
   background-image: url("../images/logic.png");
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .amplify_callout {
   height: 400px;
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .avatar {
   background-image: url("../images/avatar_black.png");
   height: 400px;
   background-size: cover;
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 a h3:hover {
   text-decoration: underline;
 }
 
-/* line 75, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 .footer {
   background-color: #eee;
   margin-top: 50px;
   padding-top: 30px;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 82, ../sass/styles.scss */
 ul {
   list-style-type: none;
 }
