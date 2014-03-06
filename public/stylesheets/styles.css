@@ -10,31 +10,36 @@ body {
 }
 
 /* line 10, ../sass/styles.scss */
-.contain-to-grid {
+.top_nav {
   border: 1px #ddd solid;
 }
 
 /* line 14, ../sass/styles.scss */
-.center {
-  text-align: center;
-}
-
-/* line 18, ../sass/styles.scss */
 .content_box {
   background-color: #fff;
   line-height: 1.5em;
   color: #888;
-  padding: 20px 0px;
+  padding: 30px 0px;
+}
+
+/* line 21, ../sass/styles.scss */
+.thumbnail {
+  margin-bottom: 15px;
 }
 
 /* line 25, ../sass/styles.scss */
+.divider {
+  margin-bottom: 30px;
+}
+
+/* line 29, ../sass/styles.scss */
 .hero {
   line-height: 1.5em;
   font-size: 1.7em;
   color: #bbb;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 35, ../sass/styles.scss */
 .parallax {
   background-position-x: 0px !important;
   background-size: cover;
@@ -43,54 +48,54 @@ body {
   margin: 40px 0px 25px 0px;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 .sketches {
   background-image: url("../images/sketches_dark.png");
 }
 
-/* line 42, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .mr_synth {
   background-image: url("../images/mr_synth_dark.png");
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 49, ../sass/styles.scss */
 .code {
   background-image: url("../images/code_dark.png");
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .noise_toaster {
   background-image: url("../images/noise_toaster.png");
 }
 
-/* line 51, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 .harrison_roof {
   background-image: url("../images/harrison_roof_dark.png");
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .logic {
   background-image: url("../images/logic.png");
 }
 
-/* line 58, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .amplify_callout {
   height: 400px;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 a h3:hover {
   text-decoration: underline;
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 .footer {
   background-color: #eee;
   margin-top: 50px;
   padding-top: 30px;
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 ul {
   list-style-type: none;
 }

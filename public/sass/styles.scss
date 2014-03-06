@@ -7,19 +7,23 @@ body {
   padding: 4px;
 }
 
-.contain-to-grid {
+.top_nav {
   border: 1px #ddd solid;
-}
-
-.center {
-  text-align: center;
 }
 
 .content_box {
   background-color: #fff;
   line-height: 1.5em;
   color: #888;
-  padding: 20px 0px;
+  padding: 30px 0px;
+}
+
+.thumbnail {
+  margin-bottom: 15px;
+}
+
+.divider {
+  margin-bottom: 30px;
 }
 
 .hero {
