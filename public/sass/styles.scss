@@ -18,14 +18,14 @@ body {
 .content_box {
   background-color: #fff;
   line-height: 1.5em;
-  color: #999;
+  color: #888;
   padding: 20px 0px;
 }
 
 .hero {
   line-height: 1.5em;
   font-size: 1.7em;
-  color: #ccc;
+  color: #bbb;
 }
 
 .parallax {
@@ -33,7 +33,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
-  margin-bottom: 20px;
+  margin: 40px 0px 25px 0px;
 }
 
 .sketches {
@@ -43,13 +43,13 @@ body {
   background-image: url('../images/mr_synth_dark.png');
 }
 .code {
-  background-image: url('../images/code.png');
+  background-image: url('../images/code_dark.png');
 }
 .noise_toaster {
   background-image: url('../images/noise_toaster.png');
 }
 .harrison_roof {
-  background-image: url('../images/harrison_roof.png');
+  background-image: url('../images/harrison_roof_dark.png');
 }
 .logic {
   background-image: url('../images/logic.png');
@@ -59,11 +59,6 @@ body {
   height: 400px;
 }
 
-.avatar {
-  background-image: url('../images/avatar_black.png');
-  height: 400px;
-  background-size: cover;
-}
 
 .row {
 
