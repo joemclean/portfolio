@@ -32,6 +32,16 @@ body {
   color: #bbb;
 }
 
+
+.pull_quote {
+  line-height: 1.5em;
+  font-size: 1.7em;
+  color: #666;
+  padding-top: 70px;
+  .source {
+    color: #bbb;
+  }
+}
 .parallax {
   background-position-x: 0px !important;
   background-size: cover;
@@ -40,6 +50,9 @@ body {
   margin: 40px 0px 25px 0px;
 }
 
+p.caption {
+  margin-top: 5px;
+}
 .sketches {
   background-image: url('../images/sketches_dark.png');
 }
@@ -81,3 +94,14 @@ a h3:hover {
 ul {
   list-style-type: none;
 }
+
+/*-- Tablet --*/
+
+#research_links {
+  p {
+    line-height: 1.1em;
+    font-size: 1.3em;
+  }
+}
+
+

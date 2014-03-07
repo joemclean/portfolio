@@ -39,7 +39,19 @@ body {
   color: #bbb;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 36, ../sass/styles.scss */
+.pull_quote {
+  line-height: 1.5em;
+  font-size: 1.7em;
+  color: #666;
+  padding-top: 70px;
+}
+/* line 41, ../sass/styles.scss */
+.pull_quote .source {
+  color: #bbb;
+}
+
+/* line 45, ../sass/styles.scss */
 .parallax {
   background-position-x: 0px !important;
   background-size: cover;
@@ -48,54 +60,66 @@ body {
   margin: 40px 0px 25px 0px;
 }
 
-/* line 43, ../sass/styles.scss */
+/* line 53, ../sass/styles.scss */
+p.caption {
+  margin-top: 5px;
+}
+
+/* line 56, ../sass/styles.scss */
 .sketches {
   background-image: url("../images/sketches_dark.png");
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 .mr_synth {
   background-image: url("../images/mr_synth_dark.png");
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .code {
   background-image: url("../images/code_dark.png");
 }
 
-/* line 52, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 .noise_toaster {
   background-image: url("../images/noise_toaster.png");
 }
 
-/* line 55, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .harrison_roof {
   background-image: url("../images/harrison_roof_dark.png");
 }
 
-/* line 58, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 .logic {
   background-image: url("../images/logic.png");
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 .amplify_callout {
   height: 400px;
 }
 
-/* line 71, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 a h3:hover {
   text-decoration: underline;
 }
 
-/* line 75, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 .footer {
   background-color: #eee;
   margin-top: 50px;
   padding-top: 30px;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 ul {
   list-style-type: none;
+}
+
+/*-- Tablet --*/
+/* line 101, ../sass/styles.scss */
+#research_links p {
+  line-height: 1.1em;
+  font-size: 1.3em;
 }
