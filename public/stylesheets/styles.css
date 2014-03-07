@@ -123,3 +123,14 @@ ul {
   line-height: 1.1em;
   font-size: 1.3em;
 }
+
+/* line 107, ../sass/styles.scss */
+.top-bar-section ul li.selected a {
+  background: black;
+  color: white;
+}
+
+/* line 112, ../sass/styles.scss */
+.top-bar-section ul li.hidden-nav {
+  display: none;
+}

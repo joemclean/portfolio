@@ -104,4 +104,13 @@ ul {
   }
 }
 
+.top-bar-section ul li.selected a {
+  background: black;
+  color: white;
+}
+
+.top-bar-section ul li.hidden-nav {
+  display: none;
+}
+
 
